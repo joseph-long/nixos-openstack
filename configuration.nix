@@ -10,7 +10,7 @@
   };
   fileSystems = {
     "/boot" = {
-      label = "esp";
+      label = "ESP";
       fsType = "vfat";
     };
     "/" = {
