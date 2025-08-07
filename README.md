@@ -1,6 +1,6 @@
 # Cloudy NixOS for OpenStack
 
-This repository is a flake which will result in NixOS packaged up in a QCOW2 image which is compatible with virtualization platforms, like OpenStack. However you can also download the latest image built using this repository from the [releases](https://github.com/cloudnull/nixos-openstack/releases/latest) page.
+This repository is a flake which will result in NixOS packaged up in a QCOW2 image which is compatible with virtualization platforms, like OpenStack. However you can also download the latest image built using this repository from the [releases](https://github.com/joseph-long/nixos-openstack/releases/latest) page.
 
 > The following repo assumes you have `flakes` and `nix-command` on your system.
 
@@ -20,7 +20,7 @@ This repository is a flake which will result in NixOS packaged up in a QCOW2 ima
 You don't have to clone this repo to build with it. The following command could be used to create your image from source online.
 
 ``` shell
-nix build git+https://github.com/cloudnull/nixos-openstack#nixosConfigurations.build-qcow2.config.system.build.qcow2
+nix build git+https://github.com/joseph-long/nixos-openstack#nixosConfigurations.build-qcow2.config.system.build.qcow2
 ```
 
 ## Running local build
