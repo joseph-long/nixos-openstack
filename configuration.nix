@@ -3,6 +3,7 @@
     "${toString modulesPath}/profiles/qemu-guest.nix"
   ];
   nix = {
+    nixPath = [ "nixos-config=/etc/nixos/configuration.nix" ];
     settings = {
       auto-optimise-store = true;
       experimental-features = [ "nix-command" "flakes" ];
